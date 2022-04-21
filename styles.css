@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 97vh;
+    min-width: 480px;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.cell {
+    width: 48px;
+    height: 48px;
+    border: 1px grey solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#button {
+    width: 100px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
